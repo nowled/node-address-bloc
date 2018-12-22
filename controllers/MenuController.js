@@ -52,7 +52,7 @@ module.exports = class MenuController {
     var currentDate = new Date();
 
     var date = currentDate.getDate();
-    var month = currentDate.getMonth(); //Be careful! January is 0 not 1
+    var month = currentDate.getMonth();
     var year = currentDate.getFullYear();
 
     var dateString = date + "-" + (month + 1) + "-" + year;
